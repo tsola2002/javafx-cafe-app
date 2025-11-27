@@ -1,0 +1,34 @@
+#root-container{
+    -fx-padding: 20;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(pink, purple);
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: blue;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.button:hover {
+    -fx-background-color: red;
+}
+/* Label Styling */
+.label{
+    -fx-font-family: "Verdana";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+/* Text Field Styling */
+.text-field{
+    -fx-padding: 6;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-pref-width: 200px;
+    -fx-border-color: #0078D7;
+}
+
+
+
