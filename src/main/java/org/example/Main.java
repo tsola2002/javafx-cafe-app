@@ -16,7 +16,7 @@ public class Main extends Application {
         FXMLLoader loader =
                 new FXMLLoader(getClass().getResource("/fxml/form.fxml"));
         Parent root = loader.load();
-        Scene scene = new Scene(root, 360, 240);
+        Scene scene = new Scene(root, 640, 480);
 
         stage.setTitle("FXML Form Example");
         stage.setScene(scene);

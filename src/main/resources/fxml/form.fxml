@@ -12,15 +12,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity"
-      maxWidth="-Infinity"
-      minHeight="-Infinity"
-      minWidth="-Infinity"
-      prefHeight="400.0"
-      prefWidth="600.0"
-      xmlns="http://javafx.com/javafx/25"
-      xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="org.example.ch09_java_gui.FormController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ch09_java_gui.FormController">
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="192.0" style="-fx-background-color: #FED700;">
          <children>
@@ -43,7 +35,12 @@
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="407.0" style="-fx-background-color: ash;">
          <children>
-            <ImageView fitHeight="99.0" fitWidth="97.0" layoutX="137.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+            <Label layoutX="136.0" layoutY="14.0" prefHeight="18.0" prefWidth="185.0" text="Login Page" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="99.0" fitWidth="97.0" layoutX="145.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Desktop/images/lock-icon.png" />
                </image>
@@ -78,8 +75,7 @@
                   <Font name="Arial Bold" size="14.0" />
                </font>
             </Label>
-            <Button fx:id="signupButton"
-                    onAction="#handleSignup" layoutX="225.0" layoutY="325.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: grey;" text="Sign up!">
+            <Button fx:id="signupButton" layoutX="225.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleSignup" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: grey;" text="Sign up!">
                <font>
                   <Font name="Arial Bold" size="12.0" />
                </font>

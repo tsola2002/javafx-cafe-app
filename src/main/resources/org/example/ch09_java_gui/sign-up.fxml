@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="192.0" style="-fx-background-color: #FED700;">
@@ -33,6 +32,11 @@
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="407.0" style="-fx-background-color: ash;">
          <children>
+            <Label layoutX="132.0" layoutY="14.0" prefHeight="33.0" prefWidth="137.0" text="Sign Up Page">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
             <Label layoutX="36.0" layoutY="105.0" prefHeight="54.0" prefWidth="91.0" text="Password:">
                <font>
                   <Font name="Arial Bold" size="18.0" />
@@ -53,7 +57,7 @@
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
             </TextField>
-            <Button  layoutX="148.0" layoutY="192.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0" style="-fx-background-color: #FED700; -fx-font: black;" text="Signup">
+            <Button layoutX="148.0" layoutY="192.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0" style="-fx-background-color: #FED700; -fx-font: black;" text="Signup">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font>
