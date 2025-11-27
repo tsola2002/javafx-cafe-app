@@ -6,7 +6,7 @@ USE javafxdb;
 -- Table for employee
 CREATE TABLE IF NOT EXISTS employee (
     username VARCHAR(255) PRIMARY KEY,
-    password VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
 --    question VARCHAR(255),
 --    answer VARCHAR(255),
 --    date DATE
