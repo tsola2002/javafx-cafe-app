@@ -15,7 +15,7 @@
          <children>
             <ImageView blendMode="DARKEN" fitHeight="145.0" fitWidth="233.0" layoutX="37.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Desktop/images/desktop.png" />
+                  <Image url="@/images/desktop.png" />
                </image>
             </ImageView>
             <Label layoutX="14.0" layoutY="213.0" style="-fx-font-weight: bold;" text="techsupport@niit.com.ng">

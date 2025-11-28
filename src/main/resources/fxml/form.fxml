@@ -18,7 +18,7 @@
          <children>
             <ImageView blendMode="DARKEN" fitHeight="145.0" fitWidth="233.0" layoutX="37.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Desktop/images/desktop.png" />
+                   <Image url="@/images/desktop.png" />
                </image>
             </ImageView>
             <Label layoutX="20.0" layoutY="222.0" style="-fx-font-weight: bold;" text="techsupport@niit.com.ng">
@@ -42,7 +42,7 @@
             </Label>
             <ImageView fitHeight="99.0" fitWidth="97.0" layoutX="145.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Desktop/images/lock-icon.png" />
+                  <Image url="@/images/lock-icon.png" />
                </image>
             </ImageView>
             <Label layoutX="38.0" layoutY="233.0" text="Password:">
