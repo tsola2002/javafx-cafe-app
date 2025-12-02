@@ -20,7 +20,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         Connection conn = DbConnection.getConnection(); // test connection
         FXMLLoader loader =
-                new FXMLLoader(getClass().getResource("/fxml/form.fxml"));
+                new FXMLLoader(getClass().getResource("/fxml/login.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root, 640, 480);
 

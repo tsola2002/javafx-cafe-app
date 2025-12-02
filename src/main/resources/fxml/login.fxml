@@ -12,7 +12,8 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ch09_java_gui.FormController">
+<?import javafx.scene.control.PasswordField?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ch09_java_gui.LoginController">
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="192.0" style="-fx-background-color: #FED700;">
          <children>
@@ -55,17 +56,17 @@
                   <Font name="Arial Bold" size="18.0" />
                </font>
             </Label>
-            <TextField layoutX="145.0" layoutY="164.0" promptText="Username" style="-fx-background-image: white;">
-               <font>
-                  <Font name="Arial Rounded MT Bold" size="10.0" />
-               </font>
-            </TextField>
-            <TextField layoutX="149.0" layoutY="231.0" promptText="Password">
+            <TextField fx:id="usernameField" layoutX="145.0" layoutY="164.0" promptText="Username" style="-fx-background-image: white;">
                <font>
                   <Font name="Arial Rounded MT Bold" size="15.0" />
                </font>
             </TextField>
-            <Button id="button_login" layoutX="145.0" layoutY="276.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0" style="-fx-background-color: #FED700; -fx-font: black;" text="Login">
+            <PasswordField fx:id="passwordField" layoutX="149.0" layoutY="231.0" promptText="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </PasswordField>
+            <Button onAction="#handleLogin" id="button_login" layoutX="145.0" layoutY="276.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0" style="-fx-background-color: #FED700; -fx-font: black;" text="Login">
                <font>
                   <Font name="Arial Bold" size="10.0" />
                </font>
